@@ -8,13 +8,13 @@ import java.util.Map;
 public class ThingsManager {
     private final Map<String, List<String>> things = new HashMap<>();
     public ThingsManager(){
-        things.put("Banana", Arrays.asList("Green", "Yellow"));
-        things.put("Ink", Arrays.asList("Red", "Black"));
-        things.put("Salt", Arrays.asList("White", ""));
-        things.put("Blood", Arrays.asList("Red", ""));
-        things.put("Sky", Arrays.asList("Blue", "Black"));
-        things.put("Apple", Arrays.asList("Green", "Red"));
-        things.put("Frog", Arrays.asList("Blue", "Yellow"));
+        things.put("banana", Arrays.asList("green", "yellow"));
+        things.put("ink", Arrays.asList("red", "black"));
+        things.put("salt", Arrays.asList("white", ""));
+        things.put("blood", Arrays.asList("red", ""));
+        things.put("sky", Arrays.asList("blue", "black"));
+        things.put("apple", Arrays.asList("green", "red"));
+        things.put("frog", Arrays.asList("blue", "yellow"));
     }
 
     public boolean containsThing(String thing){
